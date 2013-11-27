@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8' />
+	<title>Demo - flowupLabels.js</title>
+	
+	<meta keywords='flowupLabels, placeholder, plugin, javascript, jquery' />
+	<meta description='flowupLabels.js augments the labels in your HTML forms to behave like placeholders, but with a twist.' />
+	
+	<!-- Load the CSS -->
+	<link href='http://fonts.googleapis.com/css?family=Cantarell:400,700' rel='stylesheet' type='text/css'>
+    <link href="css/main.css" rel='stylesheet' type='text/css'>
+    <link href="css/flowupLabels.css" rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+	<div id='formContainer'>
+    	<div id='formHeader'>
+			<h3>File Request Form</h3>
+		</div>
+		
+		<form id='formBody' class='fileRequestForm flowupLabels'>
+			<p class='rf_notice'>
+				Your information will be kept private and is only collected to satisfy our burning curiosity.
+			</p>
+      
+			<div class='fl_wrap'>
+				<label class='fl_label' for='rf_name'>Name:</label>
+				<input class='fl_input' type='text' id='rf_name' />
+			</div>
+
+			<div class='fl_wrap'>
+				<label class='fl_label' for='rf_email'>Email:</label>
+				<input class='fl_input' type='email' id='rf_email' />
+			</div>
+			
+			<div class='fl_wrap'>
+				<label class='fl_label' for='rf_company'>Company:</label>
+				<input class='fl_input' type='text' id='rf_company' />
+			</div>
+
+			<div class='fl_wrap'>
+				<label class='fl_label' for='rf_phonee'>Phone:</label>
+				<input class='fl_input' type='tel' id='rf_phone' />
+			</div>
+			
+			<p>
+				<input class='rf_submit' type='submit' value='Send' />
+			</p>
+		</form>
+	</div>
+	
+	<!-- Load the JS -->
+	<script src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
+	<script src='js/flowupLabels.js'></script>
+	<script src='js/main.js'></script>
+</body>
+</html>
+
+	

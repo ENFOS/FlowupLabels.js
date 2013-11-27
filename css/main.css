@@ -1,0 +1,56 @@
+body {
+  background: #e4ece5;
+  color: #363636;
+  font-size: 16px;
+  font-family: 'Cantarell', sans-serif;
+  line-height: 22px;
+}
+
+#formContainer {
+  position: fixed;
+  top: 7%;
+  right: 7%;
+  bottom: 7%;
+  left: 7%;
+  margin: auto;
+  max-width: 640px;
+  max-height: 800px;
+  
+  
+}
+
+#formHeader h3 {
+  margin: 0;
+  padding: 0.4em;
+  text-align: center;
+  font-size: 2.4em;
+  font-weight: 300;
+  opacity: 0.8;
+}
+
+#formBody {
+  font-weight: 300;
+  font-size: 1.15em;
+}
+
+.rf_notice {
+  font-size:.8em;
+}
+
+.rf_submit {
+  background:none;
+  border-radius: 4px;
+  border: 1px dotted #3dd585;
+  color: #3dd585;
+  font-size: 18px;
+  padding: 5px 25px;
+}
+.rf_submit:hover {
+  cursor:pointer;
+  background:#3dd585;
+  color: #555;
+}
+.rf_submit:focus {
+  outline:none;
+  border: 1px solid #3dd585;
+}
