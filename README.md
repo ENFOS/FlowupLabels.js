@@ -1,9 +1,9 @@
 FlowupLabels.js
 ===============
 
-A jQuery plugin for floating form labels.  
+Augments form labels to behave like placeholders, but with a twist.
 
-[DEMO](http://enfos.com/FlowupLabels.js/demo/)
+[SEE DEMO](http://enfos.com/FlowupLabels.js/demo/)
 
 Original concept by [Matt D. Smith](http://dribbble.com/shots/1254439--GIF-Mobile-Form-Interaction). Inspired by Mike Mitchell's [FloatLabel.js](https://github.com/m10l/FloatLabel.js).
 
