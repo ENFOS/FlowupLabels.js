@@ -54,3 +54,20 @@ body {
   outline:none;
   border: 1px solid #3dd585;
 }
+
+#miscInfo {
+  position:fixed;
+  bottom:10px;
+  left:15px;
+  font-size: 12px;
+  color: #999;
+}
+#miscInfo a {
+  color:#999;
+}
+#ghBanner {
+  position: absolute; 
+  top: 0; 
+  right: 0; 
+  border: 0;
+}
