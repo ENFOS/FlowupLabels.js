@@ -6,7 +6,7 @@
 				feature_onLoadInit: false,
 				// Class names used for focus and populated statuses
 				class_focused: 		'focused',
-				class_populated: 	'populated',
+				class_populated: 	'populated'
 			},
 			settings = $.extend({}, defaults, options);
   
