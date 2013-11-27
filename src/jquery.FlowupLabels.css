@@ -10,7 +10,7 @@
   /* Can change */
   width: 500px;
   height: 46px;
-  margin:12px 0; /* change 0 to auto for center alignment */
+  margin:12px auto;
 
   /* Don't change */
   display:block;
