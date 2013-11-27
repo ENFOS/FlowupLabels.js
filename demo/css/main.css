@@ -35,6 +35,11 @@ body {
 
 .rf_notice {
   font-size:.8em;
+  text-align: center;
+}
+
+.FlowupLabels .fl_label {
+  cursor: text;
 }
 
 .rf_submit {
@@ -44,6 +49,8 @@ body {
   color: #3dd585;
   font-size: 18px;
   padding: 5px 25px;
+  display: block;
+  margin: auto;
 }
 .rf_submit:hover {
   cursor:pointer;
