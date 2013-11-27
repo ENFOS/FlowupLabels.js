@@ -3,10 +3,10 @@ flowupLabels.js
 
 FlowupLabels.js is a jQuery plugin that enhances form labels to be positioned like placeholders, however remain visible when the user focuses and types into the input boxes.
 
-Original concept (visual): http://dribbble.com/shots/1254439--GIF-Mobile-Form-Interaction
-Some discussion around this UI pattern: http://bradfrostweb.com/blog/post/float-label-pattern/
+Original concept (visual): [http://dribbble.com/shots/1254439--GIF-Mobile-Form-Interaction](http://dribbble.com/shots/1254439--GIF-Mobile-Form-Interaction)
+Some discussion around this UI pattern: [http://bradfrostweb.com/blog/post/float-label-pattern/](http://bradfrostweb.com/blog/post/float-label-pattern/)
 
-Demo: http://enfos.com/demos/FlowupLabels.js/
+Check out the [Demo](http://enfos.com/demos/FlowupLabels.js/)
 
 
 Difference in this version: 
