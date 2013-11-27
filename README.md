@@ -1,17 +1,18 @@
 FlowupLabels.js
 ===============
 
-A jQuery plugin for floating form labels.  [DEMO](http://enfos.com/demos/FlowupLabels.js/)
+A jQuery plugin for floating form labels.  
 
+[DEMO](http://enfos.com/demos/FlowupLabels.js/)
 
-Original concept by [Matt D. Smith](http://dribbble.com/shots/1254439--GIF-Mobile-Form-Interaction).  [Discourse](http://bradfrostweb.com/blog/post/float-label-pattern/) about the UI pattern. Inspired by Mike Mitchell's [FloatLabel.js](https://github.com/m10l/FloatLabel.js).
+Original concept by [Matt D. Smith](http://dribbble.com/shots/1254439--GIF-Mobile-Form-Interaction). Inspired by Mike Mitchell's [FloatLabel.js](https://github.com/m10l/FloatLabel.js).
 
 
 Difference in this version: 
 ----
 
 * The label gets out of the user's way immediately on focus
-* Labels should be proceeded by a colon (":"), to indicate that the user still has something to fill. Users commonly mistake placeholder labels as prefilled inputs, an example being the common "Search..."
+* Labels should be proceeded by a colon ":", to indicate that the user still has something to fill. Users commonly mistake placeholder labels as prefilled inputs, an example being the common "Search..."
 * This implementation accounts for pre-filled elements on page load (toggleable)
 * Uses semantic labels, not placeholders
 
