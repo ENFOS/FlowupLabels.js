@@ -22,7 +22,7 @@ Usage instructions
 
 * Add jquery.FlowupLabels.css to your stylesheets:
 
-```
+``` html
 <link rel="stylesheet" href="css/jquery.FlowupLabels.css">
 <link rel="stylesheet" href="css/main.css">
 ```
@@ -30,7 +30,7 @@ Usage instructions
 
 * Add jquery.FlowupLabels.js to your scripts.
 
-```
+``` html
 <script src="js/jquery.min.js"></script>
 <script src="js/jquery.FlowupLabels.js"></script>
 <script src="js/main.js"></script>
@@ -43,7 +43,8 @@ Usage instructions
 * Give labels the '.fl_label' class
 * Give inputs the '.fl_input' class
 * Load the plugin
-```
+
+``` js
 $('.FlowupLabels').FlowupLabels({
 		/*
 		These are all the default values
