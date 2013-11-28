@@ -10,7 +10,7 @@
   /* Can change */
   width: 500px;
   height: 46px;
-  margin:12px auto;
+  margin:12px auto; /* change 0 to auto for center alignment */
 
   /* Don't change */
   display:block;
@@ -39,6 +39,7 @@
   background: none;
   border:none;
   border-bottom: 1px solid #555;
+  border-radius: 0;
   font-size: 16px;
   line-height: 22px;
   padding: 20px 0 0 5px;

@@ -19,7 +19,16 @@
 			})
 			.on('blur.flowupLabelsEvt', '.fl_input', function() {
 				var $this = $(this);
-				$this.val().length ? $this.parent().addClass(settings.class_populated).removeClass(settings.class_focused) : $this.parent().removeClass(settings.class_populated + ' ' + settings.class_focused);
+				
+				if ($this.val().length) {
+					$this.parent()
+						.addClass(settings.class_populated)
+						.removeClass(settings.class_focused);
+				} 
+				else {
+					$this.parent()
+						.removeClass(settings.class_populated + ' ' + settings.class_focused);
+				}
 			});
         
     
