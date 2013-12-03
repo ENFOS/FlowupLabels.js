@@ -13,7 +13,9 @@
 			"url": "https://raw.github.com/ENFOS/FlowupLabels.js/master/LICENSE"
 		}
 	],
-	"dependencies": "jquery",
+	"dependencies": {
+		"jquery": "1.7.2 - *"
+	},
 	"description": "Augments form labels to behave like placeholders, but with a twist.",
 	"keywords": ["FlowupLabels", "labels", "floating", "form"],
 	"demo": "http://enfos.com/FlowupLabels.js/demo/",
