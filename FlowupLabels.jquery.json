@@ -1,0 +1,23 @@
+{
+	"name": "FlowupLabels",
+	"version": "1.0.0",
+	"title": "FlowupLabels",
+	"author": {
+		"name": "Shadi Isber",
+		"email": "shadi@enfos.com",
+		"url": "http://enfos.com"
+	},
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "https://raw.github.com/ENFOS/FlowupLabels.js/master/LICENSE"
+		}
+	],
+	"dependencies": "jquery",
+	"description": "Augments form labels to behave like placeholders, but with a twist.",
+	"keywords": ["FlowupLabels", "labels", "floating", "form"],
+	"demo": "http://enfos.com/FlowupLabels.js/demo/",
+	"docs": "https://github.com/ENFOS/FlowupLabels.js",
+	"download": "https://github.com/ENFOS/FlowupLabels.js/archive/master.zip",
+	"bugs": "https://github.com/ENFOS/FlowupLabels.js/issues?state=open"
+}
