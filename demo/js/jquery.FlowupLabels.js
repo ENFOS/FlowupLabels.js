@@ -15,18 +15,18 @@
 			var $scope  = $(this);
     
 			$scope.on('focus.flowupLabelsEvt', '.fl_input', function() {
-				$(this).parent().addClass(settings.class_focused);
+				$(this).closest('.fl_wrap').addClass(settings.class_focused);
 			})
 			.on('blur.flowupLabelsEvt', '.fl_input', function() {
 				var $this = $(this);
 				
 				if ($this.val().length) {
-					$this.parent()
+					$this.closest('.fl_wrap')
 						.addClass(settings.class_populated)
 						.removeClass(settings.class_focused);
 				} 
 				else {
-					$this.parent()
+					$this.closest('.fl_wrap')
 						.removeClass(settings.class_populated + ' ' + settings.class_focused);
 				}
 			});
