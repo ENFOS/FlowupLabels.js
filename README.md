@@ -68,9 +68,9 @@ Tested in IE8, IE9, IE10, Chrome, Firefox
 
 Size
 -----
-JS:  1kb regular, ~600 bytes minified, 284 bytes gzipped+minified [(Closure Compiler)](http://closure-compiler.appspot.com/home).
+JS:  1kb regular, 610 bytes minified, 290 bytes gzipped+minified [(Closure Compiler)](http://closure-compiler.appspot.com/home).
 
-CSS: 1.6kb regular, 786 bytes minified.
+CSS: 1.7kb regular, 839 bytes minified.
 
 Total: <2kb minified, <1kb gzipped+minified.
 
