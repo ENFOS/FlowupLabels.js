@@ -4,6 +4,7 @@ FlowupLabels.js
 Augments form labels to behave like placeholders, but with a twist.
 
 [SEE DEMO](http://enfos.com/FlowupLabels.js/demo/)
+
 [Demo simulating disabled JS](http://enfos.com/FlowupLabels.js/demo/index-nojs.html)
 
 Original concept by [Matt D. Smith](http://dribbble.com/shots/1254439--GIF-Mobile-Form-Interaction). Inspired by Mike Mitchell's [FloatLabel.js](https://github.com/m10l/FloatLabel.js).
