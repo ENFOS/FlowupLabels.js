@@ -3,7 +3,7 @@
 	
 		var defaults = {
         		// Useful if you pre-fill input fields or if localstorage/sessionstorage is used. 
-				feature_onLoadInit: false,
+				feature_onLoadInit: true,
 				// Class names used for focus and populated statuses
 				class_focused: 		'focused',
 				class_populated: 	'populated'

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html class='no-js'>
+<head>
+	<meta charset='utf-8' />
+	<title>Demo - flowupLabels.js</title>
+	
+	<meta keywords='flowupLabels, placeholder, plugin, javascript, jquery' />
+	<meta description='flowupLabels.js augments the labels in your HTML forms to behave like placeholders, but with a twist.' />
+	
+	<!-- Load the CSS -->
+	<link href='http://fonts.googleapis.com/css?family=Cantarell:400,700' rel='stylesheet' type='text/css'>
+    <link href="css/main.css" rel='stylesheet' type='text/css'>
+    <link href="css/jquery.FlowupLabels.css" rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+	<div id='formContainer'>
+    	<div id='formHeader'>
+			<h3>File Request Form</h3>
+		</div>
+		
+		<form id='formBody' class='FlowupLabels'>
+			<p class='rf_notice'>
+				Your information will be kept private and is only collected to satisfy our burning curiosity.
+			</p>
+      
+			<div class='fl_wrap'>
+				<label class='fl_label' for='rf_name'>Name:</label>
+				<input class='fl_input' type='text' id='rf_name' />
+			</div>
+
+			<div class='fl_wrap'>
+				<label class='fl_label' for='rf_email'>Email:</label>
+				<input class='fl_input' type='email' id='rf_email' />
+			</div>
+			
+			<div class='fl_wrap'>
+				<label class='fl_label' for='rf_company'>Company:</label>
+				<input class='fl_input' type='text' id='rf_company' />
+			</div>
+
+			<div class='fl_wrap'>
+				<label class='fl_label' for='rf_phone'>Phone:</label>
+				<input class='fl_input' type='tel' id='rf_phone' />
+			</div>
+			
+			<p>
+				<input class='rf_submit' type='submit' value='Send' />
+			</p>
+		</form>
+	</div>
+	
+	
+	<!-- Start of Extra Demo Stuff -->	
+	<div id='miscInfo'>
+		<p>
+			Made by <a href='http://enfos.com'>ENFOS, Inc.</a>
+		</p>
+		<p>
+			<a href='https://github.com/ENFOS/flowupLabels.js'>Get the code</a> | 
+			<a href='https://github.com/ENFOS/flowupLabels.js/blob/master/LICENSE'>MIT License</a>
+		</p>
+	</div>
+	<a href="https://github.com/ENFOS/flowupLabels.js">
+		<img id='ghBanner' src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub">
+	</a>
+	<!-- End of Extra Demo Stuff -->
+	
+	
+	<!-- Load the JS -->
+	<script src='js/jquery.min.js'></script>
+	<script src='js/jquery.FlowupLabels.js'></script>
+	<script src='js/main.js'></script>
+</body>
+</html>
+
+	
