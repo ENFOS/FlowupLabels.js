@@ -6,6 +6,13 @@
  * styling purposes.
  */
  
+ +/* without js initial label state */
+ .no-js .FlowupLabels .fl_label {
+  top: 0;
+  color: #00A34D; 
+  font-size: 12px;
+}
+
 .FlowupLabels .fl_wrap {
   /* Can change */
   width: 500px;
